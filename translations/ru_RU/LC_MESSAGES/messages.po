@@ -1,0 +1,2129 @@
+# Russian (Russia) translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-02 10:26+0800\n"
+"PO-Revision-Date: 2025-05-25 19:21+0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru_RU\n"
+"Language-Team: ru_RU <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../flaskshop/constant.py:32
+msgid "Login user"
+msgstr "Пользователь"
+
+#: ../flaskshop/constant.py:33
+msgid "Editor"
+msgstr "Редактор"
+
+#: ../flaskshop/constant.py:34
+msgid "Operator"
+msgstr "Оператор"
+
+#: ../flaskshop/constant.py:35
+msgid "Super administrator"
+msgstr "Супер администратор"
+
+#: ../flaskshop/account/forms.py:17 ../flaskshop/dashboard/views/user.py:26
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: ../flaskshop/account/forms.py:23
+msgid "The username should contain only a-z, A-Z and 0-9."
+msgstr "Имя пользователя должно содержать только символы a-z, A-Z и 0-9."
+
+#: ../flaskshop/account/forms.py:28 ../flaskshop/account/forms.py:60
+#: ../flaskshop/dashboard/views/user.py:27
+msgid "Email"
+msgstr "Электронная почта"
+
+#: ../flaskshop/account/forms.py:31 ../flaskshop/account/forms.py:89
+#: ../flaskshop/account/forms.py:122 ../flaskshop/dashboard/forms.py:85
+msgid "Password"
+msgstr "Пароль"
+
+#: ../flaskshop/account/forms.py:34 ../flaskshop/account/forms.py:124
+msgid "Verify password"
+msgstr "Подтвердите пароль"
+
+#: ../flaskshop/account/forms.py:35 ../flaskshop/account/forms.py:127
+msgid "Passwords must match"
+msgstr "Пароли должны совпадать"
+
+#: ../flaskshop/account/forms.py:50
+msgid "Username already registered"
+msgstr "Имя пользователя уже зарегистрировано"
+
+#: ../flaskshop/account/forms.py:54
+msgid "Email already registered"
+msgstr "Электронная почта уже зарегистрирована"
+
+#: ../flaskshop/account/forms.py:76 ../flaskshop/account/forms.py:107
+msgid "Unknown username"
+msgstr "Неизвестное имя пользователя"
+
+#: ../flaskshop/account/forms.py:79 ../flaskshop/account/forms.py:115
+msgid "User not activated"
+msgstr "Пользователь не активирован"
+
+#: ../flaskshop/account/forms.py:82
+msgid "Invalid"
+msgstr "Неверно"
+
+#: ../flaskshop/account/forms.py:88
+msgid "Username Or Email"
+msgstr "Имя пользователя или электронная почта"
+
+#: ../flaskshop/account/forms.py:111 ../flaskshop/account/forms.py:143
+msgid "Invalid password"
+msgstr "Неверный пароль"
+
+#: ../flaskshop/account/forms.py:121
+msgid "Old Password"
+msgstr "Старый пароль"
+
+#: ../flaskshop/account/forms.py:151 ../flaskshop/dashboard/forms.py:94
+msgid "Province"
+msgstr "Область"
+
+#: ../flaskshop/account/forms.py:152
+msgid "City"
+msgstr "Город"
+
+#: ../flaskshop/account/forms.py:153 ../flaskshop/dashboard/forms.py:96
+msgid "District"
+msgstr "Район"
+
+#: ../flaskshop/account/forms.py:154 ../flaskshop/dashboard/forms.py:97
+msgid "Address"
+msgstr "Адрес"
+
+#: ../flaskshop/account/forms.py:155
+msgid "Contact name"
+msgstr "Контактное имя"
+
+#: ../flaskshop/account/forms.py:157 ../flaskshop/dashboard/forms.py:99
+#: ../flaskshop/templates/dashboard/user/detail.html:57
+msgid "Contact Phone"
+msgstr "Контактный телефон"
+
+#: ../flaskshop/account/views.py:31
+msgid "You are log in."
+msgstr "Вы вошли в систему."
+
+#: ../flaskshop/account/views.py:46
+msgid "Check your e-mail."
+msgstr "Проверьте вашу электронную почту."
+
+#: ../flaskshop/account/views.py:50
+#: ../flaskshop/templates/account/login.html:23
+#: ../flaskshop/templates/account/partials/login_form.html:16
+msgid "Reset Password"
+msgstr "Сбросить пароль"
+
+#: ../flaskshop/account/views.py:52
+#, python-format
+msgid ""
+"We cannot simply send you your old password.\n"
+" \n"
+"        A unique password has been generated for you. Change the password"
+" after logging in.\n"
+"\n"
+"        New Password is: %s"
+msgstr ""
+"Мы не можем просто отправить вам ваш старый пароль.\n"
+" \n"
+"        Для вас был сгенерирован уникальный пароль. Измените пароль
+" после входа в систему.\n"
+"\n"
+"        Новый пароль: %s"
+
+#: ../flaskshop/account/views.py:68
+msgid "You are logged out."
+msgstr "Вы вышли из системы."
+
+#: ../flaskshop/account/views.py:83
+msgid "You are signed up."
+msgstr "Вы зарегистрированы."
+
+#: ../flaskshop/account/views.py:94
+msgid "You have changed password."
+msgstr "Вы изменили пароль."
+
+#: ../flaskshop/account/views.py:125
+msgid "Success edit address."
+msgstr "Адрес успешно изменен."
+
+#: ../flaskshop/account/views.py:128
+msgid "Success add address."
+msgstr "Адрес успешно добавлен."
+
+#: ../flaskshop/api/checkout.py:5
+msgid "Checkout related operations"
+msgstr "Операции, связанные с оформлением заказа"
+
+#: ../flaskshop/api/checkout.py:10
+msgid "The checkout cartline id"
+msgstr "ID строки корзины"
+
+#: ../flaskshop/api/checkout.py:11
+msgid "The cart item num"
+msgstr "Количество товара в корзине"
+
+#: ../flaskshop/api/checkout.py:13
+msgid "The cart item title"
+msgstr "Название товара в корзине"
+
+#: ../flaskshop/api/checkout.py:16
+msgid "The cart item variant"
+msgstr "Вариант товара в корзине"
+
+#: ../flaskshop/api/checkout.py:19
+msgid "The cart item product"
+msgstr "Товар в корзине"
+
+#: ../flaskshop/api/checkout.py:22
+msgid "The cart item price"
+msgstr "Цена товара в корзине"
+
+#: ../flaskshop/api/checkout.py:25
+msgid "The cart item image"
+msgstr "Изображение товара в корзине"
+
+#: ../flaskshop/api/product.py:9
+msgid "Products related operations"
+msgstr "Операции, связанные с товарами"
+
+#: ../flaskshop/api/product.py:11
+msgid "The variant"
+msgstr "Вариант"
+
+#: ../flaskshop/api/product.py:12
+msgid "The quantity"
+msgstr "Количество"
+
+#: ../flaskshop/api/product.py:17 ../flaskshop/api/product.py:39
+#: ../flaskshop/api/product.py:63
+msgid "The product identifier"
+msgstr "Идентификатор товара"
+
+#: ../flaskshop/api/product.py:18 ../flaskshop/api/product.py:40
+msgid "The product name"
+msgstr "Название товара"
+
+#: ../flaskshop/api/product.py:19 ../flaskshop/api/product.py:41
+msgid "The product description"
+msgstr "Описание товара"
+
+#: ../flaskshop/api/product.py:20 ../flaskshop/api/product.py:42
+msgid "The product price"
+msgstr "Цена товара"
+
+#: ../flaskshop/api/product.py:21
+msgid "The product first img"
+msgstr "Первое изображение товара"
+
+#: ../flaskshop/api/product.py:27
+msgid "The variant identifier"
+msgstr "Идентификатор варианта"
+
+#: ../flaskshop/api/product.py:28
+msgid "The variant sku"
+msgstr "Артикул варианта"
+
+#: ../flaskshop/api/product.py:29
+msgid "The variant name"
+msgstr "Название варианта"
+
+#: ../flaskshop/api/product.py:30
+msgid "The variant price"
+msgstr "Цена варианта"
+
+#: ../flaskshop/api/product.py:32
+msgid "The variant stock"
+msgstr "Наличие варианта"
+
+#: ../flaskshop/api/product.py:43
+msgid "The product images"
+msgstr "Изображения товара"
+
+#: ../flaskshop/api/product.py:45
+msgid "The product variant"
+msgstr "Вариант товара"
+
+#: ../flaskshop/api/product.py:64
+msgid "Product not found"
+msgstr "Товар не найден"
+
+#: ../flaskshop/checkout/forms.py:6
+msgid "ADD A NOTE TO YOUR ORDER"
+msgstr "ДОБАВИТЬ ЗАМЕТКУ К ЗАКАЗУ"
+
+#: ../flaskshop/checkout/forms.py:10 ../flaskshop/dashboard/forms.py:174
+msgid "Code"
+msgstr "Код"
+
+#: ../flaskshop/checkout/views.py:118
+msgid "Your code is not correct"
+msgstr "Ваш код неверен"
+
+#: ../flaskshop/dashboard/forms.py:48 ../flaskshop/dashboard/forms.py:57
+#: ../flaskshop/dashboard/forms.py:69 ../flaskshop/dashboard/forms.py:104
+#: ../flaskshop/dashboard/forms.py:111 ../flaskshop/dashboard/forms.py:119
+#: ../flaskshop/dashboard/forms.py:127 ../flaskshop/dashboard/forms.py:136
+#: ../flaskshop/dashboard/forms.py:159 ../flaskshop/dashboard/forms.py:166
+#: ../flaskshop/dashboard/forms.py:172 ../flaskshop/dashboard/forms.py:193
+#: ../flaskshop/dashboard/views/discount.py:16
+#: ../flaskshop/dashboard/views/discount.py:70
+#: ../flaskshop/dashboard/views/product.py:30
+#: ../flaskshop/dashboard/views/product.py:67
+#: ../flaskshop/dashboard/views/product.py:108
+#: ../flaskshop/dashboard/views/product.py:152
+#: ../flaskshop/dashboard/views/product.py:212
+#: ../flaskshop/dashboard/views/site.py:24
+#: ../flaskshop/dashboard/views/site.py:58
+#: ../flaskshop/dashboard/views/site.py:106
+#: ../flaskshop/dashboard/views/site.py:144
+#: ../flaskshop/templates/dashboard/product/detail.html:96
+msgid "Title"
+msgstr "Название"
+
+#: ../flaskshop/dashboard/forms.py:49 ../flaskshop/dashboard/forms.py:58
+#: ../flaskshop/dashboard/views/site.py:59
+#: ../flaskshop/dashboard/views/site.py:107
+#: ../flaskshop/templates/account/details.html:47
+#: ../flaskshop/templates/dashboard/index.html:105
+#: ../flaskshop/templates/orders/details.html:22
+#: ../flaskshop/templates/orders/details.html:35
+#: ../flaskshop/templates/public/style_guide.html:714
+msgid "Order"
+msgstr "Заказ"
+
+#: ../flaskshop/dashboard/forms.py:50
+msgid "End Point"
+msgstr "Конечная точка"
+
+#: ../flaskshop/dashboard/forms.py:51
+msgid "Icon"
+msgstr "Иконка"
+
+#: ../flaskshop/dashboard/forms.py:52 ../flaskshop/dashboard/forms.py:60
+#: ../flaskshop/dashboard/forms.py:120
+#: ../flaskshop/dashboard/views/product.py:109
+msgid "Parent"
+msgstr "Родитель"
+
+#: ../flaskshop/dashboard/forms.py:53 ../flaskshop/dashboard/forms.py:65
+#: ../flaskshop/dashboard/forms.py:73 ../flaskshop/dashboard/forms.py:79
+#: ../flaskshop/dashboard/forms.py:90 ../flaskshop/dashboard/forms.py:100
+#: ../flaskshop/dashboard/forms.py:107 ../flaskshop/dashboard/forms.py:115
+#: ../flaskshop/dashboard/forms.py:123 ../flaskshop/dashboard/forms.py:132
+#: ../flaskshop/dashboard/forms.py:147 ../flaskshop/dashboard/forms.py:152
+#: ../flaskshop/dashboard/forms.py:162 ../flaskshop/dashboard/forms.py:168
+#: ../flaskshop/dashboard/forms.py:189 ../flaskshop/dashboard/forms.py:198
+msgid "Submit"
+msgstr "Отправить"
+
+#: ../flaskshop/dashboard/forms.py:59 ../flaskshop/dashboard/views/site.py:146
+msgid "Url"
+msgstr "URL"
+
+#: ../flaskshop/dashboard/forms.py:61 ../flaskshop/dashboard/views/site.py:60
+msgid "Position"
+msgstr "Позиция"
+
+#: ../flaskshop/dashboard/forms.py:61
+msgid "none"
+msgstr "нет"
+
+#: ../flaskshop/dashboard/forms.py:61
+msgid "top"
+msgstr "верх"
+
+#: ../flaskshop/dashboard/forms.py:61
+msgid "bottom"
+msgstr "низ"
+
+#: ../flaskshop/dashboard/forms.py:62 ../flaskshop/dashboard/forms.py:143
+#: ../flaskshop/dashboard/forms.py:184 ../flaskshop/dashboard/forms.py:196
+#: ../flaskshop/dashboard/views/product.py:216
+#: ../flaskshop/templates/dashboard/product/category.html:15
+#: ../flaskshop/templates/dashboard/product/detail.html:56
+#: ../flaskshop/templates/dashboard/product/list.html:26
+msgid "Category"
+msgstr "Категория"
+
+#: ../flaskshop/dashboard/forms.py:63
+#: ../flaskshop/templates/dashboard/product/collection.html:15
+msgid "Collection"
+msgstr "Коллекция"
+
+#: ../flaskshop/dashboard/forms.py:64
+#: ../flaskshop/templates/dashboard/site/site_page.html:14
+msgid "Page"
+msgstr "Страница"
+
+#: ../flaskshop/dashboard/forms.py:70 ../flaskshop/dashboard/views/site.py:145
+msgid "Slug"
+msgstr "Slug"
+
+#: ../flaskshop/dashboard/forms.py:71
+msgid "Content"
+msgstr "Содержание"
+
+#: ../flaskshop/dashboard/forms.py:72
+msgid "Is Visible"
+msgstr "Видимый"
+
+#: ../flaskshop/dashboard/forms.py:77
+msgid "Header"
+msgstr "Заголовок"
+
+#: ../flaskshop/dashboard/forms.py:78 ../flaskshop/dashboard/forms.py:144
+#: ../flaskshop/templates/products/details.html:135
+msgid "Description"
+msgstr "Описание"
+
+#: ../flaskshop/dashboard/forms.py:83
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: ../flaskshop/dashboard/forms.py:84
+msgid "E-mail"
+msgstr "Электронная почта"
+
+#: ../flaskshop/dashboard/forms.py:86
+msgid "Is Activ"
+msgstr "Активен"
+
+#: ../flaskshop/dashboard/forms.py:87
+msgid "Role"
+msgstr "Роль"
+
+#: ../flaskshop/dashboard/forms.py:88
+msgid "Created at"
+msgstr "Создан"
+
+#: ../flaskshop/dashboard/forms.py:89
+msgid "Updated at"
+msgstr "Обновлен"
+
+#: ../flaskshop/dashboard/forms.py:95
+msgid "Sity"
+msgstr "Город"
+
+#: ../flaskshop/dashboard/forms.py:98
+#: ../flaskshop/templates/dashboard/user/detail.html:56
+msgid "Contact Name"
+msgstr "Контактное имя"
+
+#: ../flaskshop/dashboard/forms.py:105
+#: ../flaskshop/dashboard/views/product.py:31
+msgid "Value"
+msgstr "Значение"
+
+#: ../flaskshop/dashboard/forms.py:106
+#: ../flaskshop/templates/dashboard/site/index.html:27
+msgid "Product Types"
+msgstr "Типы товаров"
+
+#: ../flaskshop/dashboard/forms.py:112
+msgid "Products"
+msgstr "Товары"
+
+#: ../flaskshop/dashboard/forms.py:113 ../flaskshop/dashboard/forms.py:121
+msgid "Current Image"
+msgstr "Текущее изображение"
+
+#: ../flaskshop/dashboard/forms.py:114 ../flaskshop/dashboard/forms.py:122
+msgid "Upload"
+msgstr "Загрузить"
+
+#: ../flaskshop/dashboard/forms.py:128
+msgid "Has variant"
+msgstr "Имеет варианты"
+
+#: ../flaskshop/dashboard/forms.py:129
+msgid "Is shipping required"
+msgstr "Требуется доставка"
+
+#: ../flaskshop/dashboard/forms.py:130
+msgid "Product atributes"
+msgstr "Атрибуты товара"
+
+#: ../flaskshop/dashboard/forms.py:131
+msgid "Variant Attributes"
+msgstr "Атрибуты вариантов"
+
+#: ../flaskshop/dashboard/forms.py:137
+msgid "Basic Price"
+msgstr "Базовая цена"
+
+#: ../flaskshop/dashboard/forms.py:138
+#: ../flaskshop/dashboard/views/product.py:213
+#: ../flaskshop/templates/dashboard/product/detail.html:39
+#: ../flaskshop/templates/dashboard/product/list.html:19
+msgid "On Sale"
+msgstr "В продаже"
+
+#: ../flaskshop/dashboard/forms.py:139
+msgid "Is Featured"
+msgstr "Рекомендуемый"
+
+#: ../flaskshop/dashboard/forms.py:140
+#: ../flaskshop/templates/dashboard/product/detail.html:47
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: ../flaskshop/dashboard/forms.py:141
+#: ../flaskshop/dashboard/views/product.py:214
+#: ../flaskshop/templates/dashboard/product/detail.html:50
+msgid "Sold Count"
+msgstr "Количество продаж"
+
+#: ../flaskshop/dashboard/forms.py:142
+#: ../flaskshop/templates/dashboard/product/detail.html:53
+msgid "Review Count"
+msgstr "Количество отзывов"
+
+#: ../flaskshop/dashboard/forms.py:145
+msgid "Images"
+msgstr "Изображения"
+
+#: ../flaskshop/dashboard/forms.py:146
+msgid "Atributes"
+msgstr "Атрибуты"
+
+#: ../flaskshop/dashboard/forms.py:151
+msgid "Choose A Product Type"
+msgstr "Выберите тип товара"
+
+#: ../flaskshop/dashboard/forms.py:157
+#: ../flaskshop/templates/dashboard/order/detail.html:51
+#: ../flaskshop/templates/dashboard/product/detail.html:95
+msgid "SKU"
+msgstr "Артикул"
+
+#: ../flaskshop/dashboard/forms.py:160
+msgid "Price override"
+msgstr "Переопределение цены"
+
+#: ../flaskshop/dashboard/forms.py:161
+#: ../flaskshop/templates/checkout/cart.html:26
+#: ../flaskshop/templates/dashboard/product/detail.html:97
+#: ../flaskshop/templates/orders/_ordered_items_table.html:12
+#: ../flaskshop/templates/public/style_guide.html:573
+msgid "Quantity"
+msgstr "Количество"
+
+#: ../flaskshop/dashboard/forms.py:167
+#: ../flaskshop/dashboard/views/product.py:215
+#: ../flaskshop/dashboard/views/site.py:25
+#: ../flaskshop/templates/checkout/cart.html:29
+#: ../flaskshop/templates/dashboard/product/detail.html:43
+#: ../flaskshop/templates/orders/_ordered_items_table.html:17
+#: ../flaskshop/templates/products/_filters.html:49
+msgid "Price"
+msgstr "Цена"
+
+#: ../flaskshop/dashboard/forms.py:173
+#: ../flaskshop/dashboard/views/discount.py:17
+#: ../flaskshop/templates/dashboard/product/product_create_step2.html:17
+msgid "Type"
+msgstr "Тип"
+
+#: ../flaskshop/dashboard/forms.py:175
+msgid "Usage limit"
+msgstr "Лимит использования"
+
+#: ../flaskshop/dashboard/forms.py:176
+msgid "how many times can be used"
+msgstr "сколько раз можно использовать"
+
+#: ../flaskshop/dashboard/forms.py:178
+#: ../flaskshop/dashboard/views/discount.py:19
+msgid "Used"
+msgstr "Использовано"
+
+#: ../flaskshop/dashboard/forms.py:179
+msgid "Validity Period"
+msgstr "Период действия"
+
+#: ../flaskshop/dashboard/forms.py:180 ../flaskshop/dashboard/forms.py:194
+msgid "Discount value type"
+msgstr "Тип значения скидки"
+
+#: ../flaskshop/dashboard/forms.py:181 ../flaskshop/dashboard/forms.py:195
+msgid "Discount value"
+msgstr "Значение скидки"
+
+#: ../flaskshop/dashboard/forms.py:182
+msgid "Limit"
+msgstr "Лимит"
+
+#: ../flaskshop/dashboard/forms.py:184
+msgid "если тип - категория, необходимо выбрать"
+msgstr ""
+
+#: ../flaskshop/dashboard/forms.py:187 ../flaskshop/dashboard/forms.py:197
+#: ../flaskshop/templates/checkout/cart.html:23
+#: ../flaskshop/templates/dashboard/order/detail.html:50
+#: ../flaskshop/templates/orders/_ordered_items_table.html:7
+msgid "Product"
+msgstr "Товар"
+
+#: ../flaskshop/dashboard/forms.py:187
+msgid "when type is product, need to select"
+msgstr "если тип - товар, необходимо выбрать"
+
+#: ../flaskshop/dashboard/views/discount.py:15
+#: ../flaskshop/dashboard/views/discount.py:69
+#: ../flaskshop/dashboard/views/order.py:27
+#: ../flaskshop/dashboard/views/product.py:29
+#: ../flaskshop/dashboard/views/product.py:67
+#: ../flaskshop/dashboard/views/product.py:107
+#: ../flaskshop/dashboard/views/product.py:151
+#: ../flaskshop/dashboard/views/product.py:211
+#: ../flaskshop/dashboard/views/site.py:23
+#: ../flaskshop/dashboard/views/site.py:57
+#: ../flaskshop/dashboard/views/site.py:105
+#: ../flaskshop/dashboard/views/site.py:143
+#: ../flaskshop/dashboard/views/user.py:25
+#: ../flaskshop/templates/dashboard/product/detail.html:94
+#: ../flaskshop/templates/dashboard/user/detail.html:55
+#: ../flaskshop/templates/dashboard/user/detail.html:80
+msgid "ID"
+msgstr "ID"
+
+#: ../flaskshop/dashboard/views/discount.py:18
+msgid "Usage Limit"
+msgstr "Лимит использования"
+
+#: ../flaskshop/dashboard/views/discount.py:20
+#: ../flaskshop/dashboard/views/discount.py:71
+msgid "Discount Type"
+msgstr "Тип скидки"
+
+#: ../flaskshop/dashboard/views/discount.py:21
+#: ../flaskshop/dashboard/views/discount.py:72
+msgid "Discount Value"
+msgstr "Значение скидки"
+
+#: ../flaskshop/dashboard/views/discount.py:24
+#: ../flaskshop/templates/dashboard/discount/voucher.html:15
+msgid "Voucher"
+msgstr "Ваучер"
+
+#: ../flaskshop/dashboard/views/discount.py:28
+msgid "vouchers"
+msgstr "ваучеры"
+
+#: ../flaskshop/dashboard/views/discount.py:75
+#: ../flaskshop/templates/dashboard/discount/sale.html:14
+#: ../flaskshop/templates/products/_items.html:14
+#: ../flaskshop/templates/public/style_guide.html:841
+msgid "Sale"
+msgstr "Распродажа"
+
+#: ../flaskshop/dashboard/views/discount.py:79
+msgid "sales"
+msgstr "sales"
+
+#: ../flaskshop/dashboard/views/order.py:28
+msgid "Identity"
+msgstr "Идентификатор"
+
+#: ../flaskshop/dashboard/views/order.py:29
+#: ../flaskshop/templates/account/details.html:56
+#: ../flaskshop/templates/dashboard/order/detail.html:22
+#: ../flaskshop/templates/dashboard/order/list.html:16
+#: ../flaskshop/templates/dashboard/user/detail.html:81
+#: ../flaskshop/templates/public/style_guide.html:723
+msgid "Status"
+msgstr "Статус"
+
+#: ../flaskshop/dashboard/views/order.py:30
+#: ../flaskshop/templates/checkout/_subtotal_table.html:4
+#: ../flaskshop/templates/checkout/details.html:101
+#: ../flaskshop/templates/dashboard/order/detail.html:106
+#: ../flaskshop/templates/dashboard/user/detail.html:82
+#: ../flaskshop/templates/orders/_ordered_items_table.html:101
+msgid "Total"
+msgstr "Итого"
+
+#: ../flaskshop/dashboard/views/order.py:31
+msgid "User"
+msgstr "Пользователь"
+
+#: ../flaskshop/dashboard/views/order.py:32
+#: ../flaskshop/dashboard/views/product.py:67
+#: ../flaskshop/dashboard/views/product.py:110
+#: ../flaskshop/dashboard/views/product.py:155
+#: ../flaskshop/dashboard/views/site.py:26
+#: ../flaskshop/templates/dashboard/order/detail.html:14
+#: ../flaskshop/templates/dashboard/order/list.html:28
+#: ../flaskshop/templates/dashboard/user/detail.html:83
+msgid "Created At"
+msgstr "Создан"
+
+#: ../flaskshop/dashboard/views/product.py:32
+#: ../flaskshop/templates/dashboard/product/detail.html:59
+msgid "ProductType"
+msgstr "Тип товара"
+
+#: ../flaskshop/dashboard/views/product.py:35
+msgid "Product Attribute"
+msgstr "Атрибут товара"
+
+#: ../flaskshop/dashboard/views/product.py:69
+msgid "Product Collection"
+msgstr "Коллекция товаров"
+
+#: ../flaskshop/dashboard/views/product.py:113
+msgid "Product Category"
+msgstr "Категория товара"
+
+#: ../flaskshop/dashboard/views/product.py:153
+msgid "Has Variants"
+msgstr "Имеет варианты"
+
+#: ../flaskshop/dashboard/views/product.py:154
+msgid "Is Shipping Required"
+msgstr "Требуется доставка"
+
+#: ../flaskshop/dashboard/views/product.py:158
+#: ../flaskshop/templates/dashboard/product/product_type.html:15
+msgid "Product Type"
+msgstr "Тип товара"
+
+#: ../flaskshop/dashboard/views/site.py:29
+#: ../flaskshop/templates/dashboard/order/detail.html:35
+#: ../flaskshop/templates/dashboard/site/shipping_method.html:15
+msgid "Shipping Method"
+msgstr "Способ доставки"
+
+#: ../flaskshop/dashboard/views/site.py:61
+#: ../flaskshop/dashboard/views/site.py:110
+msgid "Parent Id"
+msgstr "ID родителя"
+
+#: ../flaskshop/dashboard/views/site.py:64
+msgid "Site Menus"
+msgstr "Меню сайта"
+
+#: ../flaskshop/dashboard/views/site.py:108
+msgid "Endpoint"
+msgstr "Конечная точка"
+
+#: ../flaskshop/dashboard/views/site.py:109
+msgid "Icon class"
+msgstr "Класс иконки"
+
+#: ../flaskshop/dashboard/views/site.py:113
+msgid "Dashboard Menus"
+msgstr "Меню панели управления"
+
+#: ../flaskshop/dashboard/views/site.py:147
+msgid "Is Visiable"
+msgstr "Видимый"
+
+#: ../flaskshop/dashboard/views/site.py:150
+msgid "Site Pages"
+msgstr "Страницы сайта"
+
+#: ../flaskshop/dashboard/views/site.py:183
+msgid "The plugin is enabled, Please restart flask-shop now!"
+msgstr "Плагин включен, пожалуйста, перезапустите flask-shop!"
+
+#: ../flaskshop/dashboard/views/site.py:191
+msgid "The plugin is disabled, Please restart flask-shop now!"
+msgstr "Плагин отключен, пожалуйста, перезапустите flask-shop!"
+
+#: ../flaskshop/dashboard/views/site.py:219
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: ../flaskshop/dashboard/views/user.py:28
+msgid "Is Active"
+msgstr "Активен"
+
+#: ../flaskshop/dashboard/views/user.py:31
+msgid "User List"
+msgstr "Список пользователей"
+
+#: ../flaskshop/order/views.py:34
+msgid "This is not your order!"
+msgstr "Это не ваш заказ!"
+
+#: ../flaskshop/order/views.py:41
+msgid "This Order Can Not Pay"
+msgstr "Этот заказ нельзя оплатить"
+
+#: ../flaskshop/templates/base.html:16
+msgid "flask store"
+msgstr "магазин на flask"
+
+#: ../flaskshop/templates/base.html:48 ../flaskshop/templates/base.html:186
+#: ../flaskshop/templates/dashboard/layout.html:22
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: ../flaskshop/templates/base.html:55
+msgid "Your Account"
+msgstr "Ваш аккаунт"
+
+#: ../flaskshop/templates/base.html:60
+msgid "Log Out"
+msgstr "Выйти"
+
+#: ../flaskshop/templates/account/login.html:15
+#: ../flaskshop/templates/base.html:66 ../flaskshop/templates/base.html:204
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../flaskshop/templates/account/login.html:3
+#: ../flaskshop/templates/account/login.html:21
+#: ../flaskshop/templates/account/partials/login_form.html:14
+#: ../flaskshop/templates/account/signup.html:13
+#: ../flaskshop/templates/base.html:71 ../flaskshop/templates/base.html:209
+msgid "Log in"
+msgstr "Войти"
+
+#: ../flaskshop/templates/base.html:114 ../flaskshop/templates/base.html:179
+msgid "Your Cart"
+msgstr "Ваша корзина"
+
+#: ../flaskshop/templates/base.html:173
+#: ../flaskshop/templates/dashboard/order/detail.html:25
+msgid "Account"
+msgstr "Аккаунт"
+
+#: ../flaskshop/templates/account/details.html:12
+#: ../flaskshop/templates/base.html:192
+#: ../flaskshop/templates/orders/details.html:17
+msgid "Your account"
+msgstr "Ваш аккаунт"
+
+#: ../flaskshop/templates/base.html:198
+msgid "Log out"
+msgstr "Выйти"
+
+#: ../flaskshop/templates/account/address_edit.html:14
+#: ../flaskshop/templates/public/style_guide.html:612
+msgid "Your profile"
+msgstr "Ваш профиль"
+
+#: ../flaskshop/templates/account/address_edit.html:30
+#: ../flaskshop/templates/public/style_guide.html:617
+msgid "Edit address"
+msgstr "Редактировать адрес"
+
+#: ../flaskshop/templates/account/address_edit.html:30
+msgid "New address"
+msgstr "Новый адрес"
+
+#: ../flaskshop/templates/account/address_edit.html:37
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: ../flaskshop/templates/account/details.html:9
+#: ../flaskshop/templates/checkout/cart.html:7
+#: ../flaskshop/templates/orders/details.html:12
+#: ../flaskshop/templates/public/page.html:13
+#: ../plugin_example/conversations/templates/message_layout.html:7
+msgid "Home"
+msgstr "Главная"
+
+#: ../flaskshop/templates/account/details.html:19
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: ../flaskshop/templates/account/details.html:23
+#: ../flaskshop/templates/public/style_guide.html:668
+msgid "Recent Orders"
+msgstr "Недавние заказы"
+
+#: ../flaskshop/templates/account/details.html:29
+#: ../flaskshop/templates/account/details.html:107
+#: ../flaskshop/templates/public/style_guide.html:673
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: ../flaskshop/templates/account/details.html:35
+#: ../flaskshop/templates/public/style_guide.html:678
+msgid "Addresses book"
+msgstr "Адресная книга"
+
+#: ../flaskshop/templates/account/details.html:50
+#: ../flaskshop/templates/public/style_guide.html:717
+msgid "Date"
+msgstr "Дата"
+
+#: ../flaskshop/templates/account/details.html:53
+#: ../flaskshop/templates/public/style_guide.html:720
+msgid "Summary"
+msgstr "Итого"
+
+#: ../flaskshop/templates/account/details.html:80
+#: ../flaskshop/templates/public/style_guide.html:744
+#: ../flaskshop/templates/public/style_guide.html:765
+msgid "Details"
+msgstr "Подробности"
+
+#: ../flaskshop/templates/account/details.html:93
+msgid "There are not any completed orders yet."
+msgstr "Пока нет завершенных заказов."
+
+#: ../flaskshop/templates/account/details.html:122
+#: ../flaskshop/templates/dashboard/discount/sale.html:13
+#: ../flaskshop/templates/dashboard/discount/voucher.html:14
+#: ../flaskshop/templates/dashboard/list.html:45
+#: ../flaskshop/templates/dashboard/product/attribute.html:14
+#: ../flaskshop/templates/dashboard/product/category.html:14
+#: ../flaskshop/templates/dashboard/product/collection.html:14
+#: ../flaskshop/templates/dashboard/product/detail.html:16
+#: ../flaskshop/templates/dashboard/product/detail.html:110
+#: ../flaskshop/templates/dashboard/product/product_type.html:14
+#: ../flaskshop/templates/dashboard/product/variant.html:14
+#: ../flaskshop/templates/dashboard/site/shipping_method.html:14
+#: ../flaskshop/templates/dashboard/site/site_menu.html:14
+#: ../flaskshop/templates/dashboard/site/site_page.html:13
+#: ../flaskshop/templates/dashboard/user/detail.html:31
+#: ../flaskshop/templates/dashboard/user/detail.html:67
+#: ../flaskshop/templates/public/style_guide.html:791
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../flaskshop/templates/account/details.html:135
+#: ../flaskshop/templates/public/style_guide.html:802
+msgid "Remove Address"
+msgstr "Удалить адрес"
+
+#: ../flaskshop/templates/account/details.html:138
+#: ../flaskshop/templates/public/style_guide.html:805
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../flaskshop/templates/account/details.html:148
+msgid "New Address"
+msgstr "Новый адрес"
+
+#: ../flaskshop/templates/account/login.html:10
+msgid "Don't have an account yet?"
+msgstr "Еще нет аккаунта?"
+
+#: ../flaskshop/templates/account/reser_passwd_mail.html:42
+msgid "You reset your password"
+msgstr "Вы сбросили свой пароль"
+
+#: ../flaskshop/templates/account/reser_passwd_mail.html:46
+msgid ""
+"We cannot simply send you your old password. A unique\n"
+"                                            password has been generated "
+"for you. Change the password after logging in."
+msgstr ""
+"Мы не можем просто отправить вам ваш старый пароль. Для вас был\n"
+"                                            сгенерирован уникальный пароль. "
+"Измените пароль после входа в систему."
+
+#: ../flaskshop/templates/account/signup.html:10
+msgid "Already have an account?"
+msgstr "Уже есть аккаунт?"
+
+#: ../flaskshop/templates/account/signup.html:20
+#: ../flaskshop/templates/account/signup.html:28
+msgid "Create an account"
+msgstr "Создать аккаунт"
+
+#: ../flaskshop/templates/account/partials/login_form.html:21
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: ../flaskshop/templates/checkout/_subtotal_table.html:5
+#: ../flaskshop/templates/public/cart_dropdown.html:31
+msgid "Shipment calculated at checkout"
+msgstr "Стоимость доставки рассчитывается при оформлении"
+
+#: ../flaskshop/templates/checkout/cart.html:3
+msgid "Your cart"
+msgstr "Ваша корзина"
+
+#: ../flaskshop/templates/checkout/cart.html:8
+msgid "Cart"
+msgstr "Корзина"
+
+#: ../flaskshop/templates/checkout/cart.html:15
+msgid "Product has been removed from cart"
+msgstr "Товар удален из корзины"
+
+#: ../flaskshop/templates/checkout/cart.html:75
+#: ../flaskshop/templates/checkout/details.html:3
+#: ../flaskshop/templates/checkout/details.html:16
+#: ../flaskshop/templates/public/cart_dropdown.html:50
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+#: ../flaskshop/templates/checkout/cart.html:82
+#: ../flaskshop/templates/public/cart_dropdown.html:55
+msgid "There are no products in your shopping cart."
+msgstr "В вашей корзине нет товаров."
+
+#: ../flaskshop/templates/checkout/cart.html:83
+#: ../flaskshop/templates/public/cart_dropdown.html:57
+msgid "Check out our sales"
+msgstr "Посмотрите наши распродажи"
+
+#: ../flaskshop/templates/checkout/details.html:8
+msgid "Easy and secure!"
+msgstr "Просто и безопасно!"
+
+#: ../flaskshop/templates/checkout/details.html:47
+#: ../flaskshop/templates/dashboard/order/detail.html:92
+#: ../flaskshop/templates/orders/_ordered_items_table.html:52
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: ../flaskshop/templates/checkout/details.html:57
+msgid "Shipment"
+msgstr "Доставка"
+
+#: ../flaskshop/templates/checkout/details.html:72
+msgid "Promo code"
+msgstr "Промокод"
+
+#: ../flaskshop/templates/checkout/details.html:78
+msgid "Remove"
+msgstr "Remove"
+
+#: ../flaskshop/templates/checkout/note.html:8
+#: ../flaskshop/templates/checkout/shipping.html:8
+#: ../flaskshop/templates/orders/_ordered_items_table.html:117
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: ../flaskshop/templates/checkout/note.html:10
+msgid "Select other address"
+msgstr "Выбрать другой адрес"
+
+#: ../flaskshop/templates/checkout/note.html:15
+msgid "Select other shipping method"
+msgstr "Выбрать другой способ доставки"
+
+#: ../flaskshop/templates/checkout/shipping.html:27
+msgid "Enter a new address"
+msgstr "Ввести новый адрес"
+
+#: ../flaskshop/templates/checkout/shipping.html:42
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+#: ../flaskshop/templates/checkout/shipping.html:60
+msgid "Continue"
+msgstr "Продолжить"
+
+#: ../flaskshop/templates/dashboard/index.html:17
+msgid "Sales"
+msgstr "Продажи"
+
+#: ../flaskshop/templates/dashboard/index.html:18
+msgid "today and"
+msgstr "сегодня и"
+
+#: ../flaskshop/templates/dashboard/index.html:19
+msgid "total"
+msgstr "всего"
+
+#: ../flaskshop/templates/dashboard/index.html:29
+msgid "Members"
+msgstr "Участники"
+
+#: ../flaskshop/templates/dashboard/index.html:30
+msgid "new in"
+msgstr "новых за"
+
+#: ../flaskshop/templates/dashboard/index.html:31
+msgid "accounts"
+msgstr "аккаунтов"
+
+#: ../flaskshop/templates/dashboard/index.html:43
+msgid "Orders are ready to fulfill"
+msgstr "Заказы готовы к выполнению"
+
+#: ../flaskshop/templates/dashboard/index.html:49
+msgid "Payments to capture"
+msgstr "Платежи для обработки"
+
+#: ../flaskshop/templates/dashboard/index.html:55
+msgid "products is on sale"
+msgstr "товаров в продаже"
+
+#: ../flaskshop/templates/dashboard/index.html:64
+msgid "Top Products"
+msgstr "Топ товаров"
+
+#: ../flaskshop/templates/dashboard/index.html:82
+msgid "Ordered"
+msgstr "Заказано"
+
+#: ../flaskshop/templates/dashboard/index.html:98
+msgid "Activity"
+msgstr "Активность"
+
+#: ../flaskshop/templates/dashboard/index.html:105
+msgid "was"
+msgstr "был"
+
+#: ../flaskshop/templates/dashboard/index.html:110
+msgid "There is no recent activity"
+msgstr "Нет недавней активности"
+
+#: ../flaskshop/templates/dashboard/layout.html:25
+msgid "Front Site"
+msgstr "Фронтенд сайта"
+
+#: ../flaskshop/templates/dashboard/discount/sale.html:13
+#: ../flaskshop/templates/dashboard/discount/voucher.html:14
+#: ../flaskshop/templates/dashboard/list.html:25
+#: ../flaskshop/templates/dashboard/product/attribute.html:14
+#: ../flaskshop/templates/dashboard/product/category.html:14
+#: ../flaskshop/templates/dashboard/product/collection.html:14
+#: ../flaskshop/templates/dashboard/product/detail.html:87
+#: ../flaskshop/templates/dashboard/product/list.html:45
+#: ../flaskshop/templates/dashboard/product/product_type.html:14
+#: ../flaskshop/templates/dashboard/product/variant.html:14
+#: ../flaskshop/templates/dashboard/site/shipping_method.html:14
+#: ../flaskshop/templates/dashboard/site/site_menu.html:14
+#: ../flaskshop/templates/dashboard/site/site_page.html:14
+msgid "Create"
+msgstr "Создать"
+
+#: ../flaskshop/templates/dashboard/list.html:36
+#: ../flaskshop/templates/dashboard/order/list.html:44
+#: ../flaskshop/templates/dashboard/product/detail.html:99
+#: ../flaskshop/templates/dashboard/product/list.html:58
+#: ../flaskshop/templates/dashboard/site/plugin.html:17
+#: ../flaskshop/templates/dashboard/user/detail.html:58
+#: ../flaskshop/templates/dashboard/user/detail.html:84
+#: ../flaskshop/templates/dashboard/user/list.html:35
+msgid "Operation"
+msgstr "Операция"
+
+#: ../flaskshop/templates/dashboard/list.html:47
+#: ../flaskshop/templates/dashboard/product/detail.html:18
+#: ../flaskshop/templates/dashboard/product/detail.html:112
+#: ../flaskshop/templates/dashboard/user/detail.html:33
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:23
+msgid "Payment Status"
+msgstr "Статус платежа"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:24
+msgid "Payment Due"
+msgstr "Срок оплаты"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:29
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:49
+msgid "Qty"
+msgstr "Кол-во"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:52
+msgid "Unit Price"
+msgstr "Цена за единицу"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:53
+msgid "Subtotal)"
+msgstr "Промежуточный итог)"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:81
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:82
+msgid "Order Note"
+msgstr "Примечание к заказу"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:96
+#: ../flaskshop/templates/orders/_ordered_items_table.html:69
+msgid "Shipping"
+msgstr "Доставка"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:101
+msgid "Discount"
+msgstr "Скидка"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:121
+msgid "Send Order"
+msgstr "Отправить заказ"
+
+#: ../flaskshop/templates/dashboard/order/detail.html:126
+msgid "Draft Order"
+msgstr "Черновик заказа"
+
+#: ../flaskshop/templates/dashboard/order/list.html:10
+msgid "Order List"
+msgstr "Список заказов"
+
+#: ../flaskshop/templates/dashboard/order/list.html:24
+msgid "Order No."
+msgstr "№ заказа"
+
+#: ../flaskshop/templates/dashboard/order/list.html:31
+#: ../flaskshop/templates/dashboard/product/list.html:41
+msgid "Query"
+msgstr "Запрос"
+
+#: ../flaskshop/templates/dashboard/order/list.html:53
+#: ../flaskshop/templates/dashboard/product/list.html:67
+#: ../flaskshop/templates/dashboard/user/detail.html:92
+#: ../flaskshop/templates/dashboard/user/list.html:44
+msgid "View"
+msgstr "Просмотр"
+
+#: ../flaskshop/templates/dashboard/product/detail.html:62
+msgid "Created"
+msgstr "Создан"
+
+#: ../flaskshop/templates/dashboard/product/detail.html:68
+msgid "Product Description"
+msgstr "Описание товара"
+
+#: ../flaskshop/templates/dashboard/product/detail.html:83
+msgid "Variants"
+msgstr "Варианты"
+
+#: ../flaskshop/templates/dashboard/product/detail.html:98
+msgid "PriceOverride"
+msgstr "Переопределение цены"
+
+#: ../flaskshop/templates/dashboard/product/list.html:12
+msgid "Product List "
+msgstr "Список товаров "
+
+#: ../flaskshop/templates/dashboard/product/list.html:20
+msgid "Yes"
+msgstr "Да"
+
+#: ../flaskshop/templates/dashboard/product/list.html:21
+msgid "No"
+msgstr "Нет"
+
+#: ../flaskshop/templates/dashboard/product/product_create_step1.html:14
+msgid "Create Product Step First"
+msgstr "Создание товара - шаг первый"
+
+#: ../flaskshop/templates/dashboard/product/product_create_step2.html:12
+msgid "Create Product Step 2"
+msgstr "Создание товара - шаг 2"
+
+#: ../flaskshop/templates/dashboard/product/product_edit.html:14
+msgid "Edit Product"
+msgstr "Редактировать товар"
+
+#: ../flaskshop/templates/dashboard/product/variant.html:15
+msgid "Variant"
+msgstr "Вариант"
+
+#: ../flaskshop/templates/dashboard/site/dashboard_menu.html:14
+msgid "Create Dashboard Menu"
+msgstr "Создать меню панели управления"
+
+#: ../flaskshop/templates/dashboard/site/index.html:7
+msgid "Product Settings"
+msgstr "Настройки товаров"
+
+#: ../flaskshop/templates/dashboard/site/index.html:14
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: ../flaskshop/templates/dashboard/site/index.html:16
+msgid "Determine attributes used to create product types"
+msgstr "Определите атрибуты для создания типов товаров"
+
+#: ../flaskshop/templates/dashboard/site/index.html:29
+msgid "Define types of products you sell"
+msgstr "Определите типы товаров, которые вы продаете"
+
+#: ../flaskshop/templates/dashboard/site/index.html:40
+msgid "Shipping Methods"
+msgstr "Способы доставки"
+
+#: ../flaskshop/templates/dashboard/site/index.html:42
+msgid "Manage how you ship out orders"
+msgstr "Управляйте способами доставки заказов"
+
+#: ../flaskshop/templates/dashboard/site/index.html:57
+msgid "Pages"
+msgstr "Страницы"
+
+#: ../flaskshop/templates/dashboard/site/index.html:59
+msgid "Manage and add additional pages"
+msgstr "Управляйте и добавляйте дополнительные страницы"
+
+#: ../flaskshop/templates/dashboard/site/index.html:70
+msgid "Navigations"
+msgstr "Навигация"
+
+#: ../flaskshop/templates/dashboard/site/index.html:72
+msgid "Define how users can navigate through your store"
+msgstr "Определите, как пользователи могут перемещаться по вашему магазину"
+
+#: ../flaskshop/templates/dashboard/site/index.html:83
+msgid "Dashboard Navigations"
+msgstr "Навигация панели управления"
+
+#: ../flaskshop/templates/dashboard/site/index.html:85
+msgid "Define how managers can navigate dashboard"
+msgstr "Определите, как менеджеры могут перемещаться по панели управления"
+
+#: ../flaskshop/templates/dashboard/site/index.html:96
+msgid "Plugins"
+msgstr "Плагины"
+
+#: ../flaskshop/templates/dashboard/site/index.html:98
+msgid "View and update your plugins and their settings."
+msgstr "Просматривайте и обновляйте ваши плагины и их настройки."
+
+#: ../flaskshop/templates/dashboard/site/index.html:109
+msgid "Sites Settings"
+msgstr "Настройки сайта"
+
+#: ../flaskshop/templates/dashboard/site/index.html:111
+msgid "View and update your site settings"
+msgstr "Просматривайте и обновляйте настройки вашего сайта"
+
+#: ../flaskshop/templates/dashboard/site/plugin.html:9
+msgid "Manage Plugins"
+msgstr "Управление плагинами"
+
+#: ../flaskshop/templates/dashboard/site/plugin.html:15
+msgid "Plugin"
+msgstr "Плагин"
+
+#: ../flaskshop/templates/dashboard/site/plugin.html:16
+msgid "Info"
+msgstr "Информация"
+
+#: ../flaskshop/templates/dashboard/site/plugin.html:32
+msgid "Disable"
+msgstr "Отключить"
+
+#: ../flaskshop/templates/dashboard/site/plugin.html:37
+msgid "Enable"
+msgstr "Включить"
+
+#: ../flaskshop/templates/dashboard/site/settings.html:13
+msgid "Site Settings"
+msgstr "Настройки сайта"
+
+#: ../flaskshop/templates/dashboard/site/settings.html:29
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../flaskshop/templates/dashboard/site/site_menu.html:14
+msgid "Site Menu"
+msgstr "Меню сайта"
+
+#: ../flaskshop/templates/dashboard/user/detail.html:45
+msgid "Addresses"
+msgstr "Адреса"
+
+#: ../flaskshop/templates/dashboard/user/detail.html:46
+msgid "Orders"
+msgstr "Заказы"
+
+#: ../flaskshop/templates/dashboard/user/detail.html:72
+msgid "This user have not add address"
+msgstr "Этот пользователь не добавил адрес"
+
+#: ../flaskshop/templates/dashboard/user/detail.html:99
+msgid "This user have not create orders"
+msgstr "Этот пользователь не создавал заказов"
+
+#: ../flaskshop/templates/dashboard/user/edit.html:13
+msgid "Edit User"
+msgstr "Редактировать пользователя"
+
+#: ../flaskshop/templates/dashboard/user/edit_addr.html:13
+msgid "Edit User Address"
+msgstr "Редактировать адрес пользователя"
+
+#: ../flaskshop/templates/errors/404.html:4
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: ../flaskshop/templates/errors/404.html:10
+msgid "Sorry, that page doesn't exist."
+msgstr "Извините, такой страницы не существует"
+
+#: ../flaskshop/templates/errors/404.html:11
+msgid "Want to"
+msgstr "Хотите"
+
+#: ../flaskshop/templates/errors/404.html:11
+msgid "go home"
+msgstr "вернуться на главную"
+
+#: ../flaskshop/templates/errors/404.html:11
+msgid "instead"
+msgstr "вместо этого"
+
+#: ../flaskshop/templates/orders/_ordered_items_table.html:124
+msgid "Please pay before 00:30, else the order will auto closed"
+msgstr "Пожалуйста, оплатите до 00:30, иначе заказ будет автоматически закрыт"
+
+#: ../flaskshop/templates/orders/_ordered_items_table.html:126
+msgid "Alipay"
+msgstr "Alipay"
+
+#: ../flaskshop/templates/orders/_ordered_items_table.html:129
+msgid "Pay for test"
+msgstr "Тестовая оплата"
+
+#: ../flaskshop/templates/orders/_ordered_items_table.html:132
+msgid "Cancel Order"
+msgstr "Отменить заказ"
+
+#: ../flaskshop/templates/orders/_ordered_items_table.html:137
+msgid "this order will auto received after 1 day"
+msgstr "этот заказ будет автоматически принят через 1 день"
+
+#: ../flaskshop/templates/orders/_ordered_items_table.html:139
+msgid "Confirm receipt"
+msgstr "Подтвердить получение"
+
+#: ../flaskshop/templates/orders/checkout_success.html:14
+msgid "Thank you for your"
+msgstr "Спасибо за ваш"
+
+#: ../flaskshop/templates/orders/checkout_success.html:14
+msgid "order"
+msgstr "заказ"
+
+#: ../flaskshop/templates/orders/checkout_success.html:18
+msgid "We've sent a confirmation email with details to"
+msgstr "Мы отправили письмо с подтверждением и деталями на"
+
+#: ../flaskshop/templates/orders/checkout_success.html:19
+msgid "In case of any problems or questions please contact us"
+msgstr "В случае любых проблем или вопросов, пожалуйста, свяжитесь с нами"
+
+#: ../flaskshop/templates/orders/checkout_success.html:26
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+#: ../flaskshop/templates/orders/details.html:36
+msgid "Order Status"
+msgstr "Статус заказа"
+
+#: ../flaskshop/templates/orders/details.html:41
+msgid "Your note"
+msgstr "Ваше примечание"
+
+#: ../flaskshop/templates/products/_filters.html:64
+msgid "Clear filters"
+msgstr "Очистить фильтры"
+
+#: ../flaskshop/templates/products/_filters.html:68
+msgid "Update"
+msgstr "Обновить"
+
+#: ../flaskshop/templates/products/details.html:102
+msgid "Please choose a variant!"
+msgstr "Пожалуйста, выберите вариант!"
+
+#: ../flaskshop/templates/products/details.html:119
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: ../flaskshop/templates/products/details.html:131
+msgid "This product is currently"
+msgstr "Этот товар в настоящее время"
+
+#: ../flaskshop/templates/products/details.html:131
+msgid "unavailable"
+msgstr "недоступен"
+
+#: ../flaskshop/templates/products/product_list_base.html:45
+#: ../flaskshop/templates/public/style_guide.html:417
+msgid "Filters"
+msgstr "Фильтры"
+
+#: ../flaskshop/templates/products/product_list_base.html:53
+#: ../flaskshop/templates/products/product_list_base.html:55
+#: ../flaskshop/templates/products/product_list_base.html:72
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: ../flaskshop/templates/products/product_list_base.html:78
+msgid "ascending"
+msgstr "по возрастанию"
+
+#: ../flaskshop/templates/products/product_list_base.html:85
+msgid "descending"
+msgstr "по убыванию"
+
+#: ../flaskshop/templates/products/product_list_base.html:119
+#: ../flaskshop/templates/public/search_result.html:23
+msgid "Sorry, no matches found for your request."
+msgstr "Извините, по вашему запросу ничего не найдено."
+
+#: ../flaskshop/templates/products/product_list_base.html:120
+#: ../flaskshop/templates/public/search_result.html:24
+msgid "Try again or shop new arrivals."
+msgstr "Попробуйте снова или посмотрите новинки."
+
+#: ../flaskshop/templates/public/home.html:11
+msgid "Promo & Sale"
+msgstr "Акции и распродажи"
+
+#: ../flaskshop/templates/public/home.html:12
+msgid "from the Northpole"
+msgstr "с Северного полюса"
+
+#: ../flaskshop/templates/public/home.html:14
+#: ../flaskshop/templates/public/home.html:29
+#: ../flaskshop/templates/public/home.html:41
+msgid "Shop now"
+msgstr "Купить сейчас"
+
+#: ../flaskshop/templates/public/home.html:28
+msgid "Size & Colours"
+msgstr "Размеры и цвета"
+
+#: ../flaskshop/templates/public/home.html:40
+msgid "Digital Downloads"
+msgstr "Цифровые товары"
+
+#: ../flaskshop/templates/public/home.html:50
+msgid "Featured products"
+msgstr "Рекомендуемые товары"
+
+#: ../flaskshop/templates/public/page.html:27
+msgid "Warning!"
+msgstr "Внимание!"
+
+#: ../flaskshop/templates/public/page.html:28
+msgid "You are previewing a page that is not visible."
+msgstr "Вы просматриваете страницу, которая не видна."
+
+#: ../flaskshop/templates/public/search_result.html:3
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: ../flaskshop/templates/public/search_result.html:21
+msgid "Search"
+msgstr "Поиск"
+
+#: ../flaskshop/templates/public/style_guide.html:13
+msgid "Style guide"
+msgstr "Гид по стилю"
+
+#: ../flaskshop/templates/public/style_guide.html:23
+#: ../flaskshop/templates/public/style_guide.html:45
+msgid "Typography"
+msgstr "Типографика"
+
+#: ../flaskshop/templates/public/style_guide.html:24
+#: ../flaskshop/templates/public/style_guide.html:80
+msgid "Colors"
+msgstr "Цвета"
+
+#: ../flaskshop/templates/public/style_guide.html:25
+msgid "Grid"
+msgstr "Сетка"
+
+#: ../flaskshop/templates/public/style_guide.html:26
+#: ../flaskshop/templates/public/style_guide.html:198
+msgid "Responsive breakpoints"
+msgstr "Адаптивные точки останова"
+
+#: ../flaskshop/templates/public/style_guide.html:27
+msgid "Helper classes"
+msgstr "Вспомогательные классы"
+
+#: ../flaskshop/templates/public/style_guide.html:28
+#: ../flaskshop/templates/public/style_guide.html:334
+msgid "Icons"
+msgstr "Иконки"
+
+#: ../flaskshop/templates/public/style_guide.html:29
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: ../flaskshop/templates/public/style_guide.html:30
+#: ../flaskshop/templates/public/style_guide.html:395
+msgid "Forms"
+msgstr "Формы"
+
+#: ../flaskshop/templates/public/style_guide.html:31
+#: ../flaskshop/templates/public/style_guide.html:588
+msgid "Pagination"
+msgstr "Пагинация"
+
+#: ../flaskshop/templates/public/style_guide.html:32
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: ../flaskshop/templates/public/style_guide.html:33
+#: ../flaskshop/templates/public/style_guide.html:624
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: ../flaskshop/templates/public/style_guide.html:34
+#: ../flaskshop/templates/public/style_guide.html:644
+msgid "Main navigation"
+msgstr "Основная навигация"
+
+#: ../flaskshop/templates/public/style_guide.html:35
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: ../flaskshop/templates/public/style_guide.html:36
+msgid "Tables"
+msgstr "Таблицы"
+
+#: ../flaskshop/templates/public/style_guide.html:37
+msgid "Cards"
+msgstr "Карточки"
+
+#: ../flaskshop/templates/public/style_guide.html:38
+msgid "Product items"
+msgstr "Товары"
+
+#: ../flaskshop/templates/public/style_guide.html:39
+#: ../flaskshop/templates/public/style_guide.html:852
+msgid "Product gallery"
+msgstr "Галерея товаров"
+
+#: ../flaskshop/templates/public/style_guide.html:47
+msgid "We use Lato fontface in Regular(400),"
+msgstr "Мы используем шрифт Lato в Regular(400),"
+
+#: ../flaskshop/templates/public/style_guide.html:48
+msgid "and"
+msgstr "и"
+
+#: ../flaskshop/templates/public/style_guide.html:48
+msgid "Bold(700)"
+msgstr "Bold(700)"
+
+#: ../flaskshop/templates/public/style_guide.html:48
+msgid "weights"
+msgstr "начертаниях"
+
+#: ../flaskshop/templates/public/style_guide.html:49
+msgid ""
+"Lato includes only latin and latin extended characters. For other "
+"alphabets the default sans serif font\n"
+"              will be used."
+msgstr ""
+"Lato включает только латинские и расширенные латинские символы. Для других "
+"алфавитов будет использоваться\n"
+"              стандартный sans serif шрифт."
+
+#: ../flaskshop/templates/public/style_guide.html:52
+#: ../flaskshop/templates/public/style_guide.html:708
+#: ../flaskshop/templates/public/style_guide.html:775
+#: ../flaskshop/templates/public/style_guide.html:817
+msgid ""
+"Click and edit any text below to see how the component looks with "
+"different text"
+msgstr ""
+"Нажмите и отредактируйте любой текст ниже, чтобы увидеть, как компонент "
+"выглядит с разным текстом"
+
+#: ../flaskshop/templates/public/style_guide.html:53
+msgid "Headers"
+msgstr "Заголовки"
+
+#: ../flaskshop/templates/public/style_guide.html:57
+msgid "H1 example text"
+msgstr "Пример текста H1"
+
+#: ../flaskshop/templates/public/style_guide.html:58
+msgid "H2 example text"
+msgstr "Пример текста H2"
+
+#: ../flaskshop/templates/public/style_guide.html:59
+msgid "H3 example text (always uppercased)"
+msgstr "Пример текста H3 (всегда в верхнем регистре)"
+
+#: ../flaskshop/templates/public/style_guide.html:62
+msgid "Paragraph"
+msgstr "Абзац"
+
+#: ../flaskshop/templates/public/style_guide.html:65
+msgid ""
+"Saleor is open and free to use. It is not a bait to force you to pay us "
+"later and\n"
+"              we promise to do our bests to fix bugs and improve the "
+"code. Some situations however call for a custom\n"
+"              solution and extra code to be written. Whether you need us "
+"to cover an exotic use case or build you a\n"
+"              custom e-commerce appliance, our team can help."
+msgstr ""
+"Saleor является открытым и бесплатным для использования. Это не приманка, "
+"чтобы заставить вас платить нам позже,\n"
+"              и мы обещаем делать все возможное, "
+"чтобы исправлять ошибки и улучшать код. Однако некоторые ситуации требуют\n"
+"              индивидуального решения и написания дополнительного кода. Независимо от того, "
+"нужно ли вам покрыть экзотический случай использования или создать\n"
+"              индивидуальное электронное коммерс-решение, наша команда может помочь."
+
+#: ../flaskshop/templates/public/style_guide.html:71
+msgid "Links"
+msgstr "Ссылки"
+
+#: ../flaskshop/templates/public/style_guide.html:74
+msgid "Link example text"
+msgstr "Пример текста ссылки"
+
+#: ../flaskshop/templates/public/style_guide.html:75
+msgid "Styled link example text"
+msgstr "Пример текста стилизованной ссылки"
+
+#: ../flaskshop/templates/public/style_guide.html:154
+msgid "We use"
+msgstr "Мы используем"
+
+#: ../flaskshop/templates/public/style_guide.html:155
+msgid ""
+"responsive grid which is based on a 12 column layout. In most cases we "
+"use following combinations"
+msgstr ""
+"адаптивную сетку, основанную на 12-колоночном макете. В большинстве случаев "
+"мы используем следующие комбинации"
+
+#: ../flaskshop/templates/public/style_guide.html:206
+msgid "Max container width"
+msgstr "Максимальная ширина контейнера"
+
+#: ../flaskshop/templates/public/style_guide.html:209
+msgid "Class prefix"
+msgstr "Префикс класса"
+
+#: ../flaskshop/templates/public/style_guide.html:216
+msgid "Extra small"
+msgstr "Очень маленький"
+
+#: ../flaskshop/templates/public/style_guide.html:219
+msgid "None (auto)"
+msgstr "Нет (авто)"
+
+#: ../flaskshop/templates/public/style_guide.html:229
+msgid "Small"
+msgstr "Маленький"
+
+#: ../flaskshop/templates/public/style_guide.html:242
+msgid "Medium"
+msgstr "Средний"
+
+#: ../flaskshop/templates/public/style_guide.html:255
+msgid "Large"
+msgstr "Большой"
+
+#: ../flaskshop/templates/public/style_guide.html:268
+msgid "Extra large"
+msgstr "Очень большой"
+
+#: ../flaskshop/templates/public/style_guide.html:283
+msgid "Storefront templates built with"
+msgstr "Шаблоны витрины построены с"
+
+#: ../flaskshop/templates/public/style_guide.html:285
+msgid "framework wich has handful utility classes"
+msgstr "фреймворком, который имеет множество полезных классов"
+
+#: ../flaskshop/templates/public/style_guide.html:286
+msgid "Responsive floats"
+msgstr "Адаптивные флоаты"
+
+#: ../flaskshop/templates/public/style_guide.html:291
+msgid "Float left on all viewport sizes"
+msgstr "Флоат влево для всех размеров экрана"
+
+#: ../flaskshop/templates/public/style_guide.html:297
+msgid "Float right on all viewport sizes"
+msgstr "Флоат вправо для всех размеров экрана"
+
+#: ../flaskshop/templates/public/style_guide.html:303
+msgid "Don't float on all viewport sizes"
+msgstr "Не флоатить для всех размеров экрана"
+
+#: ../flaskshop/templates/public/style_guide.html:309
+msgid "Float left on viewports sized SM (small) or wider"
+msgstr "Флоат влево для экранов SM (маленьких) или шире"
+
+#: ../flaskshop/templates/public/style_guide.html:315
+msgid "Float right on viewports sized MD (medium) or wider"
+msgstr "Флоат вправо для экранов MD (средних) или шире"
+
+#: ../flaskshop/templates/public/style_guide.html:321
+msgid "Responsive utilities"
+msgstr "Адаптивные утилиты"
+
+#: ../flaskshop/templates/public/style_guide.html:324
+msgid ""
+"The <code>.hidden-*-up</code> classes hide the element when the viewport "
+"is at the given breakpoint or\n"
+"              wider. For example, <code>.hidden-md-up</code> hides an "
+"element on medium, large, and extra-large\n"
+"              viewports."
+msgstr ""
+"Классы <code>.hidden--up</code> скрывают элемент, когда viewport находится "
+"на заданной точке останова или шире.\n"
+"              Например, <code>.hidden-md-up</code> "
+"скрывает элемент на средних,\n"
+"              больших и очень больших экранах."
+
+#: ../flaskshop/templates/public/style_guide.html:327
+msgid ""
+"The <code>.hidden-*-down</code> classes hide the element when the "
+"viewport is at the given breakpoint or\n"
+"              smaller. For example, <code>.hidden-md-down</code> hides an"
+" element on extra-small, small, and medium\n"
+"              viewports."
+msgstr ""
+"Классы <code>.hidden--down</code> скрывают элемент, когда viewport находится "
+"на заданной точке останова или меньше.\n"
+"              Например, <code>.hidden-md-down</code>"
+" скрывает элемент на очень маленьких,\n"
+"              маленьких и средних экранах."
+
+#: ../flaskshop/templates/public/style_guide.html:351
+msgid ""
+"Click and edit any button below to see how the component looks with "
+"different text"
+msgstr ""
+"Нажмите и отредактируйте любую кнопку ниже, чтобы увидеть, как компонент "
+"выглядит с разным текстом"
+
+#: ../flaskshop/templates/public/style_guide.html:355
+msgid "Primary Button (buttons can be really very wide)"
+msgstr "Основная кнопка (кнопки могут быть очень широкими)"
+
+#: ../flaskshop/templates/public/style_guide.html:358
+msgid "Secondary Button"
+msgstr "Вторичная кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:361
+msgid "Danger Button"
+msgstr "Опасная кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:364
+msgid "Disabled Button"
+msgstr "Неактивная кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:367
+msgid "Gray Button"
+msgstr "Серая кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:370
+msgid "Primary Narrow Button"
+msgstr "Узкая основная кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:373
+msgid "Secondary Narrow Button"
+msgstr "Узкая вторичная кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:376
+msgid "Danger Narrow Button"
+msgstr "Узкая опасная кнопка"
+
+#: ../flaskshop/templates/public/style_guide.html:384
+msgid "Home page button"
+msgstr "Кнопка главной страницы"
+
+#: ../flaskshop/templates/public/style_guide.html:396
+msgid "Text form"
+msgstr "Текстовая форма"
+
+#: ../flaskshop/templates/public/style_guide.html:402
+msgid "Given name"
+msgstr "Имя"
+
+#: ../flaskshop/templates/public/style_guide.html:409
+msgid "Family name"
+msgstr "Фамилия"
+
+#: ../flaskshop/templates/public/style_guide.html:424
+msgid "Box Size"
+msgstr "Размер коробки"
+
+#: ../flaskshop/templates/public/style_guide.html:431
+#: ../flaskshop/templates/public/style_guide.html:527
+msgid "100g"
+msgstr "100г"
+
+#: ../flaskshop/templates/public/style_guide.html:433
+#: ../flaskshop/templates/public/style_guide.html:530
+msgid "250g"
+msgstr "250г"
+
+#: ../flaskshop/templates/public/style_guide.html:435
+msgid "500g"
+msgstr "500г"
+
+#: ../flaskshop/templates/public/style_guide.html:436
+msgid "Feel free to place here as long option as you want"
+msgstr "Не стесняйтесь размещать здесь столько опций, сколько хотите"
+
+#: ../flaskshop/templates/public/style_guide.html:445
+msgid "Select"
+msgstr "Выбрать"
+
+#: ../flaskshop/templates/public/style_guide.html:452
+#: ../flaskshop/templates/public/style_guide.html:453
+#: ../flaskshop/templates/public/style_guide.html:454
+#: ../flaskshop/templates/public/style_guide.html:455
+msgid "Option"
+msgstr "Опция"
+
+#: ../flaskshop/templates/public/style_guide.html:462
+msgid "Number input"
+msgstr "Числовой ввод"
+
+#: ../flaskshop/templates/public/style_guide.html:476
+msgid "Radio buttons"
+msgstr "Радиокнопки"
+
+#: ../flaskshop/templates/public/style_guide.html:484
+#: ../flaskshop/templates/public/style_guide.html:559
+msgid "First option"
+msgstr "Первая опция"
+
+#: ../flaskshop/templates/public/style_guide.html:490
+#: ../flaskshop/templates/public/style_guide.html:533
+#: ../flaskshop/templates/public/style_guide.html:565
+msgid "Feel free to place here as long text as you want"
+msgstr "Не стесняйтесь размещать здесь столько текста, сколько хотите"
+
+#: ../flaskshop/templates/public/style_guide.html:497
+msgid "Input groups"
+msgstr "Группы ввода"
+
+#: ../flaskshop/templates/public/style_guide.html:516
+msgid "Use"
+msgstr "Использовать"
+
+#: ../flaskshop/templates/public/style_guide.html:522
+msgid "Variant picker"
+msgstr "Выбор варианта"
+
+#: ../flaskshop/templates/public/style_guide.html:537
+msgid "Errors"
+msgstr "Ошибки"
+
+#: ../flaskshop/templates/public/style_guide.html:538
+msgid ""
+"Errors are always displayed as a small red text below the form explaining"
+" what cause the error."
+msgstr ""
+"Ошибки всегда отображаются как небольшой красный текст под формой, объясняющий "
+"причину ошибки."
+
+#: ../flaskshop/templates/public/style_guide.html:548
+#: ../flaskshop/templates/public/style_guide.html:569
+msgid "This field is required"
+msgstr "Это поле обязательно"
+
+#: ../flaskshop/templates/public/style_guide.html:555
+msgid "Radio form"
+msgstr "Радиоформа"
+
+#: ../flaskshop/templates/public/style_guide.html:580
+msgid "Only 32 remaining in stock"
+msgstr "Осталось только 32 на складе"
+
+#: ../flaskshop/templates/public/style_guide.html:589
+#: ../flaskshop/templates/public/style_guide.html:602
+#: ../flaskshop/templates/public/style_guide.html:625
+#: ../flaskshop/templates/public/style_guide.html:645
+msgid ""
+"Click and edit any item below to see how the component looks with "
+"different text"
+msgstr ""
+"Нажмите и отредактируйте любой элемент ниже, чтобы увидеть, как компонент "
+"выглядит с разным текстом"
+
+#: ../flaskshop/templates/public/style_guide.html:630
+msgid "This is Success alert"
+msgstr "Это уведомление об успехе"
+
+#: ../flaskshop/templates/public/style_guide.html:634
+msgid "This is Danger alert"
+msgstr "Это уведомление об опасности"
+
+#: ../flaskshop/templates/public/style_guide.html:638
+msgid ""
+"This is Warning alert. Notifications content is not limited with "
+"container width. Place here as many information as you want or need to"
+msgstr ""
+"Это предупреждение. Содержание уведомлений не ограничено шириной контейнера. "
+"Разместите здесь столько информации, сколько хотите или нужно"
+
+#: ../flaskshop/templates/public/style_guide.html:662
+msgid "Tabs navigation"
+msgstr "Навигация по вкладкам"
+
+#: ../flaskshop/templates/public/style_guide.html:740
+msgid "Payment pending"
+msgstr "Ожидается оплата"
+
+#: ../flaskshop/templates/public/style_guide.html:761
+msgid "Fully paid"
+msgstr "Полностью оплачено"
+
+#: ../flaskshop/templates/public/style_guide.html:782
+msgid "Mr. Walter C. Brown"
+msgstr "Г-н Уолтер К. Браун"
+
+#: ../flaskshop/templates/public/style_guide.html:783
+msgid "49 Featherstone Street"
+msgstr "ул. Фезерстоун, 49"
+
+#: ../flaskshop/templates/public/style_guide.html:784
+msgid "London, EC1Y 8SY"
+msgstr "Лондон, EC1Y 8SY"
+
+#: ../flaskshop/templates/public/style_guide.html:786
+msgid "United Kingdom"
+msgstr "Великобритания"
+
+#: ../flaskshop/templates/public/style_guide.html:825
+#: ../flaskshop/templates/public/style_guide.html:836
+msgid "Johnson-Brown"
+msgstr "Джонсон-Браун"
+
+#: ../flaskshop/templates/public/style_guide.html:843
+msgid "FROM"
+msgstr "ОТ"
+
+#: ../plugin_example/conversations/forms.py:14
+msgid "Recipient"
+msgstr "Получатель"
+
+#: ../plugin_example/conversations/forms.py:14
+msgid "A valid username is required."
+msgstr "Требуется действительное имя пользователя."
+
+#: ../plugin_example/conversations/forms.py:18
+#: ../plugin_example/conversations/templates/conversation.html:252
+msgid "Subject"
+msgstr "Тема"
+
+#: ../plugin_example/conversations/forms.py:18
+msgid "A Subject is required."
+msgstr "Требуется тема."
+
+#: ../plugin_example/conversations/forms.py:22
+#: ../plugin_example/conversations/forms.py:53
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../plugin_example/conversations/forms.py:22
+#: ../plugin_example/conversations/forms.py:53
+msgid "A message is required."
+msgstr "Требуется сообщение."
+
+#: ../plugin_example/conversations/forms.py:28
+msgid "The username you entered does not exist."
+msgstr "Введенное имя пользователя не существует."
+
+#: ../plugin_example/conversations/forms.py:30
+msgid "You cannot send a PM to yourself."
+msgstr "Вы не можете отправить личное сообщение себе."
+
+#: ../plugin_example/conversations/views.py:34
+msgid ""
+"You cannot send any messages anymore because you have reached your "
+"message limit."
+msgstr ""
+"Вы больше не можете отправлять сообщения, "
+"так как достигли лимита сообщений."
+
+#: ../plugin_example/conversations/templates/message_form.html:3
+#: ../plugin_example/conversations/views.py:145
+msgid "Compose Message"
+msgstr "Написать сообщение"
+
+#: ../plugin_example/conversations/views.py:177
+msgid "Message sent."
+msgstr "Сообщение отправлено."
+
+#: ../plugin_example/conversations/templates/_inject_navlink.html:7
+#: ../plugin_example/conversations/templates/_inject_navlink.html:18
+#: ../plugin_example/conversations/templates/inbox.html:3
+msgid "Inbox"
+msgstr "Входящие"
+
+#: ../plugin_example/conversations/templates/_inject_navlink.html:15
+msgid "No unread messages."
+msgstr "Нет непрочитанных сообщений."
+
+#: ../plugin_example/conversations/templates/_inject_navlink.html:19
+#: ../plugin_example/conversations/templates/message_layout.html:20
+msgid "New Message"
+msgstr "Новое сообщение"
+
+#: ../plugin_example/conversations/templates/conversation.html:304
+msgid "Send"
+msgstr "Отправить"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:14
+msgid "Conversations"
+msgstr "Разговоры"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:52
+#: ../plugin_example/conversations/templates/conversation_list.html:59
+msgid "Deleted User"
+msgstr "Удаленный пользователь"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:73
+msgid "trash"
+msgstr "корзина"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:82
+msgid "delete"
+msgstr "удалить"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:91
+msgid "restore"
+msgstr "восстановить"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:98
+msgid "edit"
+msgstr "редактировать"
+
+#: ../plugin_example/conversations/templates/conversation_list.html:108
+msgid "No conversations found."
+msgstr "Разговоры не найдены."
+
+#: ../plugin_example/conversations/templates/message_layout.html:10
+msgid "Private Message"
+msgstr "Личное сообщение"
+
+#: ../plugin_example/conversations/templates/sent.html:3
+msgid "Sent Messages"
+msgstr "Отправленные сообщения"
+
+#: ../plugin_example/conversations/templates/trash.html:3
+msgid "Trash"
+msgstr "Корзина"
+

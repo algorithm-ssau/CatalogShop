@@ -1,0 +1,37 @@
+version: "2.1"
+services:
+
+  redis:
+    image: library/redis:5.0-alpine
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+
+  elasticsearch:
+    image: elasticsearch:8.11.1
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: false
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+
+  web:
+    build: .
+    depends_on:
+      - redis
+      - elasticsearch
+    ports:
+      - "5000:5000"
+    environment:
+      DB_URI: \
+      REDIS_URI: redis://redis:6379
+      ESEARCH_URI: http://elasticsearch:9200
+      USE_ES: 1
+      FLASK_DEBUG: 1
+    restart: unless-stopped
+
+volumes:
+  db_data:
+  redis-data:
+  elasticsearch-data:
